@@ -17,23 +17,44 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav>
-        <a href="#" class="logo">Travel<span style="color: #ff6b6b;">Go</span></a>
-        
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#packages">Packages</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </div>
-  
-        <button class="menu-toggle" id="menuToggle">
-            <svg width="24" height="24" viewBox="0 0 24 24">
-                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="currentColor"/>
-            </svg>
-        </button>
-    </nav>
+    <section class="navbar-section">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/image/logo.png" class="object-fit-contain">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tentang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tiket</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galeri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontak</a>
+                        </li>
+                        <li class="nav-item d-lg-none">
+                            <a href="#" class="btn login-btn w-100">Login</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <a href="#" class="btn login-btn d-none d-lg-block">Login</a>
+            </div>
+        </nav>
+    </section>
 
     <section class="hero ">
         <div class="hero-wrapper">
