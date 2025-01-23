@@ -7,33 +7,106 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    gap: 12rem;
 }
 
 .hero-content {
-    display: flex;
-    width: 100%;
+    gap: 8rem
 }
 
 .hero-left {
-
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    max-width: 500px;
+}
+
+.headline-cta a {
+    background-color: var(--primary-color);
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 0.8rem 1.5rem !important;
+    font-family: 'Inter', sans-serif;
+}
+
+.headline-cta a:hover {
+    background-color: var(--primary-color);
 }
 
 .hero-right {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 50px;
 }
 
 .hero-main-image {
-    width: 708px;
-    height: 665px;
-    border-radius: 1rem;
+    width: 28rem;
+    height: 28rem;
+    border-radius: 0.8rem;
     overflow: hidden;
+    position: relative;
+}
+
+.image-overlay-text {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    padding: 0.2rem 0.8rem;
+    width: 26rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-left: -8rem;
+}
+
+.image-overlay-text h1 {
+    font-size: 14px !important;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0 !important;
+}
+
+.image-overlay-text p {
+    font-size: 12px !important;
+    color: var(--text-color);
+    margin-bottom: 0 !important;
 }
 
 .hero-main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-image-overlay-1,
+.hero-image-overlay-2 {
+    position: absolute;
+    width: 140px;
+    height: 180px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image-overlay-1 {
+    margin-top: -13rem;
+    margin-left: -4rem;
+}
+
+.hero-image-overlay-2 {
+    margin-top: -8rem;
+    margin-left: 21rem;
+}
+
+.hero-image-overlay-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-image-overlay-2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
