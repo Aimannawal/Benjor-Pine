@@ -16,7 +16,8 @@
 }
 
 .navbar-brand img {
-    height: 50px;
+    width: 80px; 
+    height: auto; 
 }
 
 .login-btn {
@@ -31,7 +32,7 @@
 
 .login-btn:hover {
     background-color: #4a7830 !important;
-    transform: translateY(-2px);
+    /* transform: translateY(-2px); */
 }
 
 .nav-link {

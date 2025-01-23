@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+.footer {
+  font-family: 'Outfit', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 3rem 0;
+  border-top: 3px solid #5B913B;
+}
+
+.footer-heading {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #5B913B;
+}
+
+.footer-link {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #5B913B;
+}
+
+.footer-social-link {
+  color: #5B913B;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social-link:hover {
+  color: #4a7a30;
+}
+
+.footer-divider {
+  border-top: 1px solid #e0e0e0;
+  margin: 2rem 0;
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: #666666;
+}
