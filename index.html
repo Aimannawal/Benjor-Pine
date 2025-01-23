@@ -48,19 +48,22 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Beranda</a>
+                            <a class="nav-link" href="#home">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Tentang</a>
+                            <a class="nav-link" href="#about">Tentang</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Tiket</a>
+                            <a class="nav-link" href="#pricing">Tiket</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Galeri</a>
+                            <a class="nav-link" href="#gallery">Galeri</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Kontak</a>
+                            <a class="nav-link" href="#contact">Kontak</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Wahana & Layanan</a>
                         </li>
                         <!-- <li class="nav-item d-lg-none">
                             <a href="#" class="btn login-btn w-100">Login</a>
@@ -150,7 +153,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-right w-50">
+                <div class="about-right w-50" style="position: relative;">
+                    <div class="about-image-overlay-text p-3 d-flex flex-column justify-content-center gap-2 shadow-md" style="position: absolute;">
+                        <h1>Kantin & Kafe</h1>
+                        <p>Setiap sudut kafe kami dirancang untuk membuat Anda merasa dekat dengan alam, tempat yang sempurna untuk melepas penat.</p>
+                    </div>
                     <div class="about-image">
                         <img src="./assets/img/cafe.jpg" alt="about-image">
                     </div>
@@ -201,7 +208,7 @@
         </div>
     </section>
 
-    <section class="facilites" style="padding-left: 7rem; padding-right: 7rem;">
+    <section class="facilites" style="padding-left: 7rem; padding-right: 7rem;" id="service">
         <div class="facilites-wrapper d-flex justify-content-center align-items-center">
             <div class="facilities-content">
                 <div class="facilities-left">
@@ -277,7 +284,7 @@
         </div>
     </section>
 
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="pricing-wrapper container">
             <div class="pricing-content">
                 <div class="pricing-title">

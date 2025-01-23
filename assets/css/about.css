@@ -9,6 +9,31 @@
     justify-content: center;
 }
 
+
+.about-image-overlay-text {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    padding: 0.2rem 0.8rem;
+    width: 26rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-top: 20rem;
+    margin-left: -8rem;
+}
+
+.about-image-overlay-text h1 {
+    font-size: 14px !important;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0 !important;
+}
+
+.about-image-overlay-text p {
+    font-size: 12px !important;
+    color: var(--text-color);
+    margin-bottom: 0 !important;
+}
 .about-content {
     gap: 2rem;
 }
