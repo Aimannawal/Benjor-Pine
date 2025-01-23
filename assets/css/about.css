@@ -65,9 +65,9 @@
         display: flex;
         justify-content: start;
     }
-    /* .about-right {
+    .about-right {
         display: none;
-    } */
+    }
 
     .about-left {
         width: 100%;
