@@ -99,6 +99,9 @@
 }
 
 @media (max-width: 991px) {
+    .keunggulan {
+        padding-inline:  0px !important;
+    }
     .keunggulan-title h1,
     .keunggulan-title h2 {
         font-size: 36px;

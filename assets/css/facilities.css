@@ -1,6 +1,17 @@
 .facilites {
     margin-top: 6rem;
     width: 100%;
+    padding-left: 7rem; 
+    padding-right: 7rem; 
+}
+
+@media (max-width: 768px ) {
+    .facilites {
+        padding-left: 2rem !important; 
+        padding-right: 2rem !important; 
+    }
+
+
 }
 
 .facilities-content {

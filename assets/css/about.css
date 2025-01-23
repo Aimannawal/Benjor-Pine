@@ -85,6 +85,9 @@
 }
 
 @media (max-width : 768px) {
+    .about-content {
+        padding: 2rem;
+    }
     .about-wrapper {
         width: 100%;
         display: flex;
