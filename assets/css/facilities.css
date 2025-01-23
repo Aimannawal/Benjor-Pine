@@ -1,0 +1,53 @@
+.facilites {
+    margin-top: 8rem;
+    width: 100%;
+}
+
+.facilities-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.facilities-image {
+    width: 480px;
+    height: 480px;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+} 
+
+.facilities-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .facilities-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .facilities-content {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .facilites {
+        margin-top: 8rem;
+
+    }
+    .facilities-content {
+        flex-direction: column;
+        padding-inline: 2rem;
+        gap: 2rem;
+    }
+
+    .facilities-image {
+        width: 100%;
+        height: 320px;
+    }
+}
