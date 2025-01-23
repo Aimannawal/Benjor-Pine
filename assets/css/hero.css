@@ -112,6 +112,10 @@
     object-fit: cover;
 }
 
+.headline-mobile {
+    display: none;
+}
+
 /* tablet break point */
 @media (max-width: 991.98px) {
     .hero {
@@ -177,13 +181,28 @@
         padding-top: 4rem;
     }
 
+    .headline-desktop {
+        display: none;
+    }
+
+
+    .headline-mobile {
+        display: block;
+    }
+
+    .headline-mobile {
+        font-size: 2rem !important;
+        color: #333;
+        margin-bottom: 1rem !important;
+    }
+
     .hero-left  {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         height: 90dvh;
-        padding-inline: 2rem;
+        padding-inline: 1rem;
     }
     .hero-right {
         display: none !important;
